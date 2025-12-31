@@ -10,7 +10,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "product")
 public class ProductBean {
-
+	//Bean Creation
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id")
@@ -69,3 +69,4 @@ public class ProductBean {
 	}
 
 }
+
