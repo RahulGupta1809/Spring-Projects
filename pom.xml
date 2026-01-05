@@ -42,12 +42,9 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-
 		</dependency>
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
@@ -66,10 +63,7 @@
 			<version>0.11.2</version>
 			<scope>runtime</scope>
 		</dependency>
-
-
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
