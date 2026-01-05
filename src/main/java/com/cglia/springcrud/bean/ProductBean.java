@@ -26,9 +26,8 @@ public class ProductBean {
 	private String quantity;
 
 	public ProductBean() {
-
 	}
-
+	
 	public ProductBean(int id, String name, String price, String quantity) {
 		this.id = id;
 		this.name = name;
@@ -69,4 +68,3 @@ public class ProductBean {
 	}
 
 }
-
