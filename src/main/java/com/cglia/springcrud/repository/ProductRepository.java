@@ -5,6 +5,6 @@ import com.cglia.springcrud.bean.ProductBean;
 
 @Repository
 public interface ProductRepository extends JpaRepository<ProductBean, Integer> {
-
 }
+
 
