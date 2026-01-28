@@ -9,5 +9,4 @@ class SpringcrudApplicationTests {
 	@Test
 	void contextLoads() {
 	}
-
 }
