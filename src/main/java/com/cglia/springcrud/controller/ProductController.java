@@ -12,10 +12,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.cglia.springcrud.bean.ProductBean;
 import com.cglia.springcrud.service.ProductService;
-//Product Controller
+
 @RestController
 @CrossOrigin("*")
 @RequestMapping("/api")
@@ -63,5 +62,6 @@ public class ProductController {
 		return "Deleted Successfully";
 	}
 }
+
 
 
