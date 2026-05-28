@@ -5,7 +5,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-//Bean Classes NEw
+//Bean Classes New to
 @Entity
 @Table(name = "product")
 public class ProductBean {
