@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import com.cglia.springcrud.bean.ProductBean;
 import com.cglia.springcrud.service.ProductService;
-//Annotation
+
 @RestController
 @CrossOrigin("*")
 @RequestMapping("/api")
